@@ -10,7 +10,7 @@ end
 
 def find_max_value(array)
   max = 0
-  array.each { |ele| (ele > max)? max = ele : continue}
+  array.each { |ele| (ele > max)? max = ele : next}
   return max
 end
 
